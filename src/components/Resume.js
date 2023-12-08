@@ -18,7 +18,7 @@ export default function Resume() {
                     <img
                         className="object-cover object-center rounded"
                         alt="resume"
-                        src="./resume.png"
+                        src={require('./assets/resume.png')}
                     />
                 </div>
             </div>
