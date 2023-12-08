@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Arduino, C++, 3D Printing",
     description:
       "An Arduino system with a GPS module that automatically equalize speaker volume according to vehicle speed to enhance driving safety.",
-    image: "./project-1.gif",
+    image: './assets/resume.png',
     link: "https://google.com",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "C#, Unity",
     description:
       "A Meta Quest Pro app that let users place furniture within their mixed reality environment.",
-    image: "./project-2.gif",
+    image: './assets/resume.png',
     link: "https://google.com",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "C, Unix",
     description:
       "A custom Bash-like Unix shell with input parsing, parameter expansion, redirections and command execution.",
-    image: "./project-3.gif",
+    image: './assets/resume.png',
     link: "https://google.com",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Python, Tkinter, Pandas",
     description:
       "A GUI inventory app built with the needs of designers, architects, and homeowners in mind.",
-    image: "./project-4.gif",
+    image: './assets/resume.png',
     link: "https://google.com",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "MongoDB, Express, React, Node.js",
     description:
       "An exercise logger built with RESTful API supporting CRUD operations.",
-    image: "",
+    image: './assets/resume.png',
     link: "https://google.com",
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     subtitle: "HTML, JavaScript, Tailwind CSS, React",
     description:
       "",
-    image: "",
+    image: './assets/resume.png',
     link: "https://google.com",
   },
 ];
