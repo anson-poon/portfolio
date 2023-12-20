@@ -16,13 +16,13 @@ export default function App() {
 
   return (
     <main className={`body-font ${darkMode ? "dark" : "light"}`}>
-      <div className="container mx-auto max-w-4xl" >
+      <div className="container mx-auto max-w-5xl" >
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <About />
         <Projects />
         <Skills />
         <Resume />
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </main>
   );

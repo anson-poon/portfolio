@@ -10,19 +10,21 @@ export default function Projects() {
               PROJECTS
             </h1>
           </div>
-          <div className="flex flex-wrap -m-4">
+          {/* <div className="flex flex-wrap -m-4"> */}
+          <div className="grid grid-cols-2 gap-x-10 gap-y-12"> 
             {projects.map((project) => (
               <a
-                href={project.link}
+                href={project.link} 
                 key={project.image}
-                className="sm:w-1/2 w-100 p-4">
-                <div className="flex relative">
+                className=""
+                target="_blank" rel="noreferrer">
+                <div className="flex relative h-[25rem]">
                   <img
                     alt="gallery"
                     className="absolute inset-0 rounded-xl w-full h-full object-cover object-center drop-shadow-md"
-                    src={require(`./assets/${project.image}.gif`)}
+                    src={require(`./assets/${project.image}`)}
                   />
-                  <div className="px-20 py-20 relative z-10 rounded-xl w-full bg-slate-700 opacity-0 transition-opacity ease-in duration-100 hover:opacity-90">
+                  <div className="px-20 py-20 relative z-10 rounded-xl w-full h-full bg-slate-700 opacity-0 transition-opacity ease-in duration-100 hover:opacity-90">
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-300 mb-1">
                       {project.subtitle}
                     </h2>
