@@ -2,7 +2,7 @@
   "homepage": "https://anson-poon.github.io/portfolio-website/",
   "name": "my-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.1",
