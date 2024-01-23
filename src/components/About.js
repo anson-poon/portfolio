@@ -9,7 +9,7 @@ export default function About() {
             Anson Poon
           </h1>
           <p className="mb-8 leading-relaxed">
-            Computer Science Student
+            Computer Science Student at OSU
           </p>
           <div className="flex justify-center">
             <a
