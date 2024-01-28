@@ -6,8 +6,10 @@ export default function Navbar(props) {
   return (
     <header className="md:static top-0 z-10">
       <div className="container mx-auto flex flex-wrap py-8 flex-col md:flex-row items-center">
-        <div className="title-font font-bold mb-4 md:mb-0">
+        <div className="title-font font-bold text-lg mb-4 md:mb-0">
+          <a href="/" className="mr-5 duration-150 hover:text-slate-500">
             ANSON POON
+          </a>
         </div>
         <nav className="md:ml-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center">
           <a href="#resume" className="mr-5 duration-150 hover:text-slate-500">

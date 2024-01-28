@@ -11,17 +11,17 @@ export default function Projects() {
             </h1>
           </div>
           {/* <div className="flex flex-wrap -m-4"> */}
-          <div className="grid grid-cols-2 gap-x-10 gap-y-12"> 
+          <div className="grid grid-cols-2 gap-x-10 gap-y-16"> 
             {projects.map((project) => (
               <a
                 href={project.link} 
                 key={project.image}
                 className=""
                 target="_blank" rel="noreferrer">
-                <div className="flex relative h-[25rem]">
+                <div className="flex relative h-[28rem]">
                   <img
                     alt="gallery"
-                    className="absolute inset-0 rounded-xl w-full h-full object-cover object-center drop-shadow-md"
+                    className="absolute inset-0 rounded-xl w-full h-full object-cover object-center drop-shadow-xl"
                     src={require(`./assets/${project.image}`)}
                   />
                   <div className="px-20 py-20 relative z-10 rounded-xl w-full h-full bg-slate-700 opacity-0 transition-opacity ease-in duration-100 hover:opacity-90">
