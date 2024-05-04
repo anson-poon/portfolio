@@ -9,7 +9,7 @@ export default function About() {
             Hello!👋 I'm Anson
           </h1>
           <p className="mb-8 leading-relaxed text-2xl py-8">
-            Computer Science student at Oregon State University
+            CS Student @ Oregon State | Architecture Graduate @ UCLA | Teaching Assistant
           </p>
           <div className="flex justify-center">
             <a
@@ -18,8 +18,13 @@ export default function About() {
               Projects
             </a>
             <a
+              href="#resume"
+              className="ml-4 inline-flex text-white bg-blue-400 border-0 py-2 px-6 focus:outline-none duration-150 hover:bg-blue-600 hover:text-white rounded text-lg">
+              Resume
+            </a>
+            <a
               href="#contact"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none duration-150 hover:bg-gray-700 hover:text-white rounded text-lg">
+              className="ml-4 inline-flex text-white bg-slate-400 border-0 py-2 px-6 focus:outline-none duration-150 hover:bg-slate-500 hover:text-white rounded text-lg">
               Contact Me
             </a>
           </div>

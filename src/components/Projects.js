@@ -24,7 +24,7 @@ export default function Projects() {
                     className="absolute inset-0 rounded-xl w-full h-full object-cover object-center drop-shadow-xl"
                     src={require(`./assets/${project.image}`)}
                   />
-                  <div className="px-20 py-20 relative z-10 rounded-xl w-full h-full bg-slate-700 opacity-0 transition-opacity ease-in duration-100 hover:opacity-90">
+                  <div className="px-20 py-20 relative z-10 rounded-xl w-full h-full bg-slate-500 opacity-0 transition-opacity ease-in duration-100 hover:opacity-90">
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-300 mb-1">
                       {project.subtitle}
                     </h2>
