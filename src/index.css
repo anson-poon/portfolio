@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .dark {
-  @apply bg-slate-700 text-neutral-100 transition-colors duration-300;
+  @apply bg-slate-800 text-neutral-100 transition-colors duration-300;
 }
 
 .light {

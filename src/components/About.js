@@ -5,11 +5,14 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex py-32 md:flex-row flex-col items-center">
         <div className="lg:flex-grow flex flex-col items-center">
-          <h1 className="title-font sm:text-5xl text-3xl mb-4 font-bold">
-            Hello!👋 I'm Anson
+          <h1 className="title-font sm:text-5xl text-3xl mb-4 font-semibold">
+            Anson Poon
           </h1>
-          <p className="mb-8 leading-relaxed text-2xl py-8">
+          <p className="mb-8 leading-relaxed text-xl">
             CS Student @ Oregon State | Architecture Graduate @ UCLA | Teaching Assistant
+          </p>
+          <p className="mb-8 text-lg">
+            Hello!👋 My name is Anson, I am a CS student at OSU. I am passionate about solving real-world engineering challenges that yield lasting impact. Throughout the last few years, I have been proactively adding value through academia, club activities, and personal projects, I am determined to put myself out there and learn from the people around me. I believe in software engineering and technology being a driving force for meaningful impact, and I anticipate the opportunity to work with you all in this endeavor!
           </p>
           <div className="flex justify-center">
             <a

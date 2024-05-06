@@ -53,11 +53,18 @@ export const skills = [
   "C/C++",
   "Python",
   "Java",
+  "Kotlin",
   "JavaScript",
   "HTML/CSS",
   "React",
   "Node.js",
   "Express",
   "MongoDB",
+  "SQL",
+  "Linux/Unix",
+  "Arduino",
+  "Andriod",
+  "Figma",
+  "Git"
 ];
 

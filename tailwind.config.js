@@ -10,5 +10,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('postcss-preset-env')({
+    })
+  ],
 }
