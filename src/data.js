@@ -8,7 +8,7 @@ export const projects = [
     link: "https://github.com/anson-poon/Dynamic-Road-Noise-Equalizer",
   },
   {
-    title: "VirtuDecor: Mixed Reality Furnishing",
+    title: "Mixed Reality Furnishing",
     subtitle: "C#, Unity",
     description:
       "A Meta Quest Pro app that let users place furniture within their mixed reality environment.",
@@ -31,7 +31,7 @@ export const projects = [
     link: "https://github.com/anson-poon/Home-Inventory-App",
   },
   {
-    title: "GoFit: Exercise Logger",
+    title: "Exercise Logger",
     subtitle: "MongoDB, Express, React, Node.js",
     description:
       "An exercise logger built with RESTful API supporting CRUD operations.",

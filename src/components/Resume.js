@@ -6,7 +6,7 @@ export default function Resume() {
             <div className="container px-5 py-10 mx-auto">
                 <div className="mb-10">
                     <h1 className="sm:text-4xl text-5xl title-font mb-4 dark:text-neutral-50 font-semibold">
-                        Resume
+                        RESUME
                     </h1>
                     {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4">
                         Link:
