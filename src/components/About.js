@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function About() {
+export default function About({ darkMode }) {
   return (
     <section id="about">
-      <div className="container mx-auto flex py-32 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow flex flex-col items-center">
+      <div className="container mx-auto flex md:flex-row flex-col items-center py-20">
+        <div className={`lg:flex-grow flex flex-col items-center px-20 py-20 rounded-3xl drop-shadow-2xl ${darkMode ? "bg-slate-400" : "bg-slate-200"}`}>
           <h1 className="title-font sm:text-5xl text-3xl mb-4 font-semibold">
             Anson Poon
           </h1>
