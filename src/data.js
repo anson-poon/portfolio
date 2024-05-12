@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     title: "iHomie Android App",
-    subtitle: "Kotlin, XML",
+    subtitle: "Kotlin, XML, Material Design 3, Firebase Authentication, Room, Zillow API",
     description:
       "A real estate app for browsing properties, getting location-based recommendations, save favorite listings, and generate property statistics.",
     image: 'thumbnail_ihomie.gif',
