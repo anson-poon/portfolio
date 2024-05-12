@@ -1,4 +1,5 @@
 import React from "react";
+import FadeIn from 'react-fade-in';
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -24,11 +25,13 @@ export default function App() {
       >
         <div className="container mx-auto max-w-8xl">
           <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-          <About darkMode={darkMode} />
-          <Projects />
-          <Skills />
-          <Resume />
-          <Contact />
+          <FadeIn delay="250">
+            <About darkMode={darkMode} />
+            <Projects />
+            <Skills />
+            <Resume />
+            <Contact />
+          </FadeIn>
         </div>
       </div>
     </main>
