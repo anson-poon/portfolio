@@ -12,12 +12,14 @@ export default function Resume() {
                         Link:
                     </p> */}
                 </div>
-                <div className="mx-auto lg:max-w-3xl lg:w-full md:w-1/2 w-5/6 drop-shadow-xl">
-                    <img
-                        className="object-cover object-center rounded"
-                        alt="resume"
-                        src={require('./assets/resume.png')}
-                    />
+                <div className="mx-auto lg:max-w-3xl lg:w-full md:w-1/2 w-5/6 drop-shadow-xl transition ease-in-out hover:scale-[1.02]">
+                    <a href="https://drive.google.com/file/d/1fw6Bj2eXuzyasgpmNRKpZ2CydKHwR8Wh/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <img
+                            className="object-cover object-center rounded-2xl"
+                            alt="resume"
+                            src={require('./assets/resume.png')}
+                        />
+                    </a>
                 </div>
             </div>
         </section>
