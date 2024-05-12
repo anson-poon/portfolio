@@ -8,6 +8,14 @@ export const projects = [
     link: "https://github.com/anson-poon/Dynamic-Road-Noise-Equalizer",
   },
   {
+    title: "iHomie Android App",
+    subtitle: "Kotlin, XML",
+    description:
+      "A real estate app for browsing properties, getting location-based recommendations, save favorite listings, and generate property statistics.",
+    image: 'thumbnail_ihomie.gif',
+    link: "https://github.com/pod5AND101Spring24/iHomie"
+  },
+  {
     title: "Mixed Reality Furnishing",
     subtitle: "C#, Unity",
     description:
