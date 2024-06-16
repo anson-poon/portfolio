@@ -9,7 +9,7 @@ export default function About({ darkMode }) {
             Anson Poon
           </h1>
           <p className="mb-8 leading-relaxed text-xl">
-            CS Student @ Oregon State | Architecture Graduate @ UCLA | Freelance Software Developer | Teaching Assistant
+            CS Student @ Oregon State | Architecture Graduate @ UCLA | Software Engineer Intern
           </p>
           <p className="mb-8 text-lg">
             Welcome to my portfolio page!👋 My name is Anson, I am a CS student at OSU. I am passionate about solving real-world engineering challenges that yield lasting impact. Throughout the last few years, I have been proactively adding value through academia, club activities, freelancing and personal projects, I am determined to put myself out there and learn from the people around me. I believe in software engineering and technology being a driving force for meaningful changes, and I anticipate the opportunity to work with you all in this endeavor!
