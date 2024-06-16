@@ -30,7 +30,7 @@ export default function App() {
             <Projects />
             <Skills />
             <Resume />
-            <Contact />
+            <Contact darkMode={darkMode}/>
           </FadeIn>
         </div>
       </div>
