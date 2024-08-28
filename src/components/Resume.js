@@ -13,7 +13,7 @@ export default function Resume() {
                     </p> */}
                 </div>
                 <div className="mx-auto lg:max-w-3xl lg:w-full md:w-1/2 w-5/6 drop-shadow-xl transition ease-in-out hover:scale-[1.02]">
-                    <a href="https://drive.google.com/file/d/14se7f-r6vZG1mdtmW3qfFgejauAQV6zx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1bt8Bk9q3mxjiajlJJ6PCutqJIQKJjXTv/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <img
                             className="object-cover object-center rounded-2xl"
                             alt="resume"
