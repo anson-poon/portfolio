@@ -7826,7 +7826,7 @@ postcss-place@^7.0.5:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-preset-env@^10.0.1:
+postcss-preset-env@^10.0.2:
   version "10.0.2"
   resolved "https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-10.0.2.tgz"
   integrity sha512-PMxqnz0RQYMUmUi6p4P7BhC9EVGyEUCIdwn4vJ7Fy1jvc2QP4mMH75BSBB1mBFqjl3x4xYwyCNMhGZ8y0+/qOA==
