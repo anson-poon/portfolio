@@ -18,7 +18,7 @@ export const projects = [
   {
     title: "Care For All EHR (electronic health record)",
     subtitle: "JavaScript, HTML/CSS, Node.js, Express.js, MySQL",
-    description: "A database management system designed for comprehensive recording and logging of healthcare-related data. Including patient profiles, provider profiles, and detailed records encompassing patient visits to healthcare providers completed with credentials including insurance information and clinical notes.",
+    description: "A database management system designed for the comprehensive recording and logging of healthcare-related data. Including patient profiles, provider profiles, and detailed records encompassing patient visits to healthcare providers completed with credentials including insurance information and clinical notes.",
     image: "thumbnail_care_for_all_ehr.png",
     link: "https://github.com/anson-poon/care-for-all-ehr",
   },
