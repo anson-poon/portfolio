@@ -5,7 +5,7 @@ export default function About({ darkMode }) {
         <section id="about">
             <div className="container mx-auto flex md:flex-row flex-col items-center">
                 <div
-                    className={`lg:flex-grow flex flex-col items-center px-14 py-14 rounded-3xl drop-shadow-2xl shadow-xl ${
+                    className={`lg:flex-grow flex flex-col items-center px-14 py-14 rounded-3xl drop-shadow-2xl shadow-lg ${
                         darkMode ? "bg-neutral-500/50" : "bg-neutral-100/50"
                     }`}
                 >
@@ -22,9 +22,9 @@ export default function About({ darkMode }) {
                         anticipate the opportunity to work with you all in this endeavor!
                     </p>
                     <img
-                        src="https://media.tenor.com/dblb_XKGVC4AAAAe/pepe-the-frog-sad.png"
-                        alt="Pepe The Frog Sad Sticker"
-                        className="mb-8"
+                        src="https://media.tenor.com/IeY6d3XKvmcAAAAe/pepe-the-frog-happy.png"
+                        alt="Pepe The Frog Happy Sticker"
+                        className="mb-4 w-20"
                     />
                     <div className="flex justify-center">
                         <a

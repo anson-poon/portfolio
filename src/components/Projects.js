@@ -9,7 +9,7 @@ export default function Projects() {
                     <h1 className="sm:text-4xl text-5xl title-font dark:text-neutral-50 font-semibold">PROJECTS</h1>
                 </div>
                 {/* <div className="flex flex-wrap -m-4"> */}
-                <div className="grid grid-cols-2 gap-x-10 gap-y-10">
+                <div className="grid grid-cols-2 gap-x-10 gap-y-8">
                     {projects.map((project) => (
                         <a href={project.link} key={project.image} className="" target="_blank" rel="noreferrer">
                             <div className="flex relative h-[28rem] group">
