@@ -3,10 +3,10 @@ import React from "react";
 export default function About({ darkMode }) {
     return (
         <section id="about">
-            <div className="container mx-auto flex md:flex-row flex-col items-center py-20">
+            <div className="container mx-auto flex md:flex-row flex-col items-center">
                 <div
-                    className={`lg:flex-grow flex flex-col items-center px-20 py-20 rounded-3xl drop-shadow-2xl ${
-                        darkMode ? "bg-slate-500" : "bg-slate-200"
+                    className={`lg:flex-grow flex flex-col items-center px-14 py-14 rounded-3xl drop-shadow-2xl ${
+                        darkMode ? "bg-neutral-500/50" : "bg-neutral-100/50"
                     }`}
                 >
                     <h1 className="title-font sm:text-5xl text-3xl mb-4 font-semibold py-5">Anson Poon</h1>
@@ -21,6 +21,11 @@ export default function About({ darkMode }) {
                         in software engineering and technology being a driving force for meaningful changes, and I
                         anticipate the opportunity to work with you all in this endeavor!
                     </p>
+                    <img
+                        src="https://media.tenor.com/dblb_XKGVC4AAAAe/pepe-the-frog-sad.png"
+                        alt="Pepe The Frog Sad Sticker"
+                        className="mb-8"
+                    />
                     <div className="flex justify-center">
                         <a
                             href="#projects"
