@@ -12,7 +12,7 @@ export default function Resume() {
                 </div>
                 <div className="mx-auto lg:max-w-3xl lg:w-full md:w-1/2 w-5/6 drop-shadow-xl transition ease-in-out hover:scale-[1.02]">
                     <a
-                        href="https://drive.google.com/file/d/1bt8Bk9q3mxjiajlJJ6PCutqJIQKJjXTv/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1R4PrR-DjA4A64rxva8IevijjH2rEYJGz/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
