@@ -5,7 +5,7 @@ export default function About({ darkMode }) {
         <section id="about">
             <div className="container mx-auto flex md:flex-row flex-col items-center">
                 <div
-                    className={`lg:flex-grow flex flex-col items-center px-14 py-14 rounded-3xl drop-shadow-2xl ${
+                    className={`lg:flex-grow flex flex-col items-center px-14 py-14 rounded-3xl drop-shadow-2xl shadow-xl ${
                         darkMode ? "bg-neutral-500/50" : "bg-neutral-100/50"
                     }`}
                 >
