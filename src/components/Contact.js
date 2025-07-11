@@ -24,10 +24,10 @@ export default function Contact({ darkMode }) {
 
     return (
         <section id="contact" className="relative">
-            <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div className="container py-10 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div
-                    className={`lg:w-full md:w-full rounded-3xl overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative ${
-                        darkMode ? "bg-slate-900" : "bg-slate-400"
+                    className={`lg:w-full md:w-full rounded-3xl overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative shadow-xl ${
+                        darkMode ? "bg-neutral-500/50" : "bg-neutral-100/50"
                     }`}
                 >
                     {/* <iframe
@@ -41,12 +41,10 @@ export default function Contact({ darkMode }) {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           /> */}
-                    <div className={`relative flex flex-wrap py-6`}>
+                    <div className={`relative flex flex-wrap`}>
                         <div className="px-6 mt-4 lg:mt-0">
                             {/* Icons */}
-                            <h2 className="title-font font-semibold text-white tracking-widest text-xs py-2">
-                                SOCIALS
-                            </h2>
+                            <h2 className="title-font font-semibold  tracking-widest text-xs py-2">SOCIALS</h2>
 
                             <br />
                             <div className="flex flex-col sm:flex-row gap-x-4">
@@ -58,7 +56,7 @@ export default function Contact({ darkMode }) {
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="h-8 w-8"
+                                        className="h-7 w-7"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
                                     >
@@ -74,7 +72,7 @@ export default function Contact({ darkMode }) {
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="h-8 w-8"
+                                        className="h-7 w-7"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
                                     >
@@ -87,7 +85,8 @@ export default function Contact({ darkMode }) {
 
                             {/* Email */}
                             <div className="flex flex-row gap-x-4">
-                                <a href="mailto:ansonpoon77@gmail.com" className="text-indigo-400 leading-relaxed">
+                                Email:
+                                <a href="mailto:ansonpoon77@gmail.com" className="text-indigo-500 dark:text-indigo-200">
                                     ansonpoon77@gmail.com
                                 </a>
                             </div>
