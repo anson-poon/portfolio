@@ -1,6 +1,6 @@
 import { BadgeCheckIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "../data";
+import { skillLanguages, skillFrameworks } from "../data";
 
 export default function Skills() {
     return (
@@ -11,12 +11,25 @@ export default function Skills() {
                         SKILLS &amp; TECHNOLOGIES
                     </h1>
                 </div>
+                <h2 className="text-lg mb-4 dark:text-neutral-50">LANGUAGES</h2>
                 <div className="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2">
-                    {skills.map((skill) => (
-                        <div key={skill} className="p-1 sm:w-1/4 w-full">
+                    {skillLanguages.map((skills) => (
+                        <div key={skillLanguages} className="p-1 sm:w-1/4 w-full">
                             <div className="bg-slate-400 dark:bg-slate-700 rounded-2xl flex p-3 h-full items-center shadow-lg">
                                 <BadgeCheckIcon className="text-emerald-400 w-6 h-6 flex-shrink-0 mr-2 " />
-                                <span className="title-font font-medium text-white">{skill}</span>
+                                <span className="title-font font-medium text-white">{skills}</span>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+
+                <h2 className="text-lg mb-4 mt-8 dark:text-neutral-50">FRAMEWORKS &amp; TOOLS</h2>
+                <div className="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2">
+                    {skillFrameworks.map((skills) => (
+                        <div key={skillFrameworks} className="p-1 sm:w-1/4 w-full">
+                            <div className="bg-slate-400 dark:bg-slate-700 rounded-2xl flex p-3 h-full items-center shadow-lg">
+                                <BadgeCheckIcon className="text-emerald-400 w-6 h-6 flex-shrink-0 mr-2 " />
+                                <span className="title-font font-medium text-white">{skills}</span>
                             </div>
                         </div>
                     ))}
