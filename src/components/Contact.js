@@ -24,9 +24,9 @@ export default function Contact({ darkMode }) {
 
     return (
         <section id="contact" className="relative">
-            <div className="container py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div className="container mx-auto flex sm:flex-nowrap flex-wrap">
                 <div
-                    className={`lg:w-full md:w-full rounded-3xl overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative shadow-xl ${
+                    className={`w-full rounded-3xl overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative shadow-xl ${
                         darkMode ? "bg-neutral-500/50" : "bg-neutral-100/50"
                     }`}
                 >

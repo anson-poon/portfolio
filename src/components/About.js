@@ -5,15 +5,15 @@ export default function About({ darkMode }) {
         <section id="about">
             <div className="container mx-auto flex md:flex-row flex-col items-center">
                 <div
-                    className={`lg:flex-grow flex flex-col items-center px-14 py-14 rounded-3xl drop-shadow-2xl shadow-md ${
+                    className={`lg:flex-grow flex flex-col items-center px-5 sm:px-12 py-12 rounded-3xl drop-shadow-2xl shadow-md ${
                         darkMode ? "bg-neutral-500/50" : "bg-neutral-100/50"
                     }`}
                 >
-                    <h1 className="title-font sm:text-5xl text-3xl mb-4 font-semibold py-5">Anson Poon</h1>
+                    <h1 className="title-font sm:text-5xl text-3xl mb-4 font-semibold">Anson Poon</h1>
                     <p className="mb-8 leading-relaxed text-xl">
                         Software Developer | CS Graduate @ Oregon State | Architecture Graduate @ UCLA
                     </p>
-                    <p className="mb-8 text-lg">
+                    <p className="text-lg">
                         Welcome to my portfolio page!👋 My name is Anson, I am a Software Developer. I am passionate
                         about solving real-world engineering challenges that yield lasting impact. Throughout the last
                         few years, I have been proactively adding value through work, academia, freelancing and personal
@@ -29,19 +29,19 @@ export default function About({ darkMode }) {
                     <div className="flex justify-center">
                         <a
                             href="#projects"
-                            className="inline-flex text-white bg-teal-400/80 hover:bg-teal-600/80 py-2 px-6 focus:outline-none duration-150 rounded-xl text-lg drop-shadow-xl"
+                            className="inline-flex text-white bg-teal-400/80 hover:bg-teal-600/80 py-2 px-2 sm:px-6 focus:outline-none duration-150 rounded-xl text-lg drop-shadow-xl"
                         >
                             Projects
                         </a>
                         <a
                             href="#resume"
-                            className="ml-4 inline-flex text-white bg-blue-400 hover:bg-blue-500 py-2 px-6 focus:outline-none duration-150 hover:text-white rounded-xl text-lg drop-shadow-xl"
+                            className="ml-4 inline-flex text-white bg-blue-400 hover:bg-blue-500 py-2 px-2 sm:px-6 focus:outline-none duration-150 hover:text-white rounded-xl text-lg drop-shadow-xl"
                         >
                             Resume
                         </a>
                         <a
                             href="#contact"
-                            className="ml-4 inline-flex text-white bg-indigo-400/90 hover:bg-indigo-500 py-2 px-6 focus:outline-none duration-150 hover:text-white rounded-xl text-lg drop-shadow-xl"
+                            className="ml-4 inline-flex text-white bg-indigo-400/90 hover:bg-indigo-500 py-2 px-2 sm:px-6 focus:outline-none duration-150 hover:text-white rounded-xl text-lg drop-shadow-xl"
                         >
                             Contact Me
                         </a>

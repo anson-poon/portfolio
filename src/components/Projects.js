@@ -6,13 +6,13 @@ export default function Projects() {
         <section id="projects" className="body-font">
             <div className="container mx-auto">
                 <div className="flex flex-col w-full mt-12 mb-5">
-                    <h1 className="sm:text-4xl text-5xl title-font dark:text-neutral-50 font-semibold">PROJECTS</h1>
+                    <h1 className=" text-3xl sm:text-4xl title-font dark:text-neutral-50 font-semibold">PROJECTS</h1>
                 </div>
                 {/* <div className="flex flex-wrap -m-4"> */}
-                <div className="grid grid-cols-2 gap-x-10 gap-y-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-4 sm:gap-y-8">
                     {projects.map((project) => (
                         <a href={project.link} key={project.image} className="" target="_blank" rel="noreferrer">
-                            <div className="flex relative h-[28rem] group">
+                            <div className="flex relative h-[24rem] sm:h-[28rem] group">
                                 <div className="absolute inset-0 rounded-2xl overflow-hidden ">
                                     <img
                                         alt="gallery"
@@ -20,7 +20,7 @@ export default function Projects() {
                                         src={require(`./assets/${project.image}`)}
                                     />
                                 </div>
-                                <div className="px-20 py-20 relative z-10 rounded-xl w-full h-full bg-slate-500/80 opacity-0 transition-opacity ease-in duration-150 hover:opacity-90">
+                                <div className="p-4 sm:p-20 relative z-10 rounded-xl w-full h-full bg-slate-500/80 opacity-0 transition-opacity ease-in duration-150 hover:opacity-90">
                                     <h2 className="tracking-widest text-base title-font font-medium text-blue-300 mb-1">
                                         {project.subtitle}
                                     </h2>
